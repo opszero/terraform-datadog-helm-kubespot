@@ -9,7 +9,7 @@ resource "helm_release" "datadog" {
 
 
   values = [
-    "${file("datadog-values.yaml")}"
+    "${file("${path.module}/datadog-values.yaml")}"
   ]
 
   set = [
