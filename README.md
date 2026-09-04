@@ -9,6 +9,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_datadog_api_key"></a> [datadog\_api\_key](#input\_datadog\_api\_key) | The Datadog API key | `string` | n/a | yes |
 | <a name="input_datadog_version"></a> [datadog\_version](#input\_datadog\_version) | The version of the datadog helm chart | `string` | `"2.25.0"` | no |
 ## Resources
 
