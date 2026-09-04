@@ -7,7 +7,15 @@ resource "helm_release" "datadog" {
   chart      = "datadog"
   version    = var.datadog_version
 
+
   values = [
     "${file("datadog-values.yaml")}"
+  ]
+
+  set = [
+    {
+      name  = "datadog.apiKey"
+      value = var.datadog_api_key
+    },
   ]
 }
