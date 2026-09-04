@@ -5,16 +5,19 @@
 | Name | Version |
 |------|---------|
 | <a name="provider_helm"></a> [helm](#provider\_helm) | n/a |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | n/a |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_datadog_api_key"></a> [datadog\_api\_key](#input\_datadog\_api\_key) | The Datadog API key | `string` | n/a | yes |
+| <a name="input_datadog_app_key"></a> [datadog\_app\_key](#input\_datadog\_app\_key) | The Datadog API key | `string` | n/a | yes |
 ## Resources
 
 | Name | Type |
 |------|------|
 | [helm_release.datadog](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release) | resource |
+| [kubernetes_manifest.datadog_agent](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/manifest) | resource |
 ## Outputs
 
 No outputs.
