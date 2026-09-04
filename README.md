@@ -9,7 +9,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_datadog_version"></a> [datadog\_version](#input\_datadog\_version) | The version of the datadog helm chart | `string` | `"0.8.8"` | no |
+| <a name="input_datadog_version"></a> [datadog\_version](#input\_datadog\_version) | The version of the datadog helm chart | `string` | `"2.25.0"` | no |
 ## Resources
 
 | Name | Type |
