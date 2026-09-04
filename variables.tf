@@ -1,4 +1,4 @@
 variable "datadog_version" {
-  default     = "0.8.8"
+  default     = "2.25.0"
   description = "The version of the datadog helm chart"
 }
