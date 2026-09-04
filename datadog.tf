@@ -4,7 +4,7 @@ resource "helm_release" "datadog" {
 
   name       = "datadog"
   repository = "https://helm.datadoghq.com"
-  chart      = "datadog-operator"
+  chart      = "operator"
   version    = var.datadog_version
 
   values = [
